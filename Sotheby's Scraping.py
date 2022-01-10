@@ -20,7 +20,7 @@ target = ['claude', 'monet',
           'alfred','sisley',
           'max','liebermann']
 
-first_name,surname = target[6],target[7]
+first_name,surname = target[6],target[7] # Changing your target artist here #
 
 def noNull(str):
     if len(str) != 0 or '|' in str:
