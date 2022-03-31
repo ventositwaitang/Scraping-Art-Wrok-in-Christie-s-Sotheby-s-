@@ -36,7 +36,7 @@ def noNull(str):
     else:
         return ['']
 
-with open(f"Art index_Christie's-{artist_string}.csv", 'a', newline='') as csvfile:
+with open(f"Art index_Sotheby's-{artist_string}.csv", 'a', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["",'Artist name', 'Title of Artwork', 'Artwork type', 'Auction Location', 'Closed date',
                      'Currency', 'low Estimate', 'high Estimate', 'Price realised', 'Creation method', 'Size', 'Creation date', 'Website link'])
